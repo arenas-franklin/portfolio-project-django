@@ -1,1 +1,6 @@
-Hello world!
+<h1>Todos os trabalhos</h1>
+
+{% for job in jobs.all %}
+{{ job.sumary }} 
+<br>
+{% endfor %}
